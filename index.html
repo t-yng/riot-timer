@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body {
+      background-color: black;
+    }
+
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column;
+      margin-top: 200px;
+    }
+
+    .button-list {
+      display: flex;
+      justify-content: space-around;
+      width: 530px;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <timer></timer>
+    <div class="button-list">
+      <timer-button id="start-button"></timer-button>
+      <timer-button id="stop-button"></timer-button>
+      <timer-button id="reset-button"></timer-button>
+    </div>
+  </div>
+
+  <script src="dist/bundle.js" charset="utf-8"></script>
+</body>
+</html>
